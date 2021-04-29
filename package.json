@@ -1,0 +1,17 @@
+{
+  "name": "aws-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever start server.js",
+    "fel": "forever list",
+    "fes": "forever stop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^3.0.4"
+  }
+}
